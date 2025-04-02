@@ -1,0 +1,17 @@
+p{
+    color: rgb(1, 72, 48);
+    font-size: 40px;
+    font-style:italic;
+    text-decoration: underline;
+    word-spacing: 10px;
+    background-color: rgb(103, 1, 1);
+
+}
+h3{
+    font-variant: small-caps;
+    letter-spacing: 20px;
+}
+i{
+color: blanchedalmond;
+background-color: rgb(40, 1, 77);
+}
