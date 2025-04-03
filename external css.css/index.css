@@ -1,4 +1,4 @@
-p{
+/* p{
     color: rgb(1, 72, 48);
     font-size: 40px;
     font-style:italic;
@@ -15,4 +15,35 @@ i
 {
 color: blanchedalmond;
 background-color: rgb(40, 1, 77);
+} */
+
+#h3t
+{
+  color: rgb(1, 87, 87);  
+  font-size: 20px;
+  font-variant: inherit;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: black;
+  padding: 5px;
+  margin: 10px;
 }
+.p1t
+{
+    color: rgb(119, 119, 2);
+    font-size: 20px;
+    font-variant: small-caps;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    margin: 12px;
+}
+/* border lagane ka second type  */
+#p2t
+{
+border: 3px solid rgb(103, 1, 1);
+}
+
+
+
