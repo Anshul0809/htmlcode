@@ -19,7 +19,7 @@ background-color: rgb(40, 1, 77);
 
 #h3t
 {
-  color: rgb(1, 87, 87);  
+  color: rgb(4, 173, 173);  
   font-size: 20px;
   font-variant: inherit;
   border-width: 2px;
@@ -27,6 +27,7 @@ background-color: rgb(40, 1, 77);
   border-color: black;
   padding: 5px;
   margin: 10px;
+  text-align: center;
 }
 .p1t
 {
@@ -36,13 +37,35 @@ background-color: rgb(40, 1, 77);
     border-width: 3px;
     border-style: solid;
     border-color: black;
+    border-radius: 2px;
+    
     padding: 5px;
     margin: 12px;
+    padding-left: 10px;
+    text-align: center;
 }
 /* border lagane ka second type  */
 #p2t
 {
 border: 3px solid rgb(103, 1, 1);
+}
+#main
+{
+    background-color: rgba(78, 254, 254, 0.537);
+}
+#main2
+{
+
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+    
+    
+}
+.main3
+{
+    border-radius: 50%;
 }
 
 
