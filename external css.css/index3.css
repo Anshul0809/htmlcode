@@ -10,6 +10,7 @@
     height: 100vh;
     background-color: rgba(153, 205, 50, 0.404);
     display: flex;
+    flex-wrap: wrap;
     justify-content:center;
     align-items: center; 
     gap: 8px;
