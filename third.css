@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bordered-div {
+    width: 300px; /* customizable width */
+    height: 400px; /* customizable height */
+    min-height: 50px; /* minimum height to prevent collapse */
+    padding: 10px; /* space for inner border */
+    border: 2px solid black !important; /* black border */
+    box-sizing: border-box; /* include border in element's size */
+    background-color:linear-gradient( 0deg, #ffffff 37%, #f2f2f0 37%); /* remove background color */
+    color: inherit; /* reset text color */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.bordered-div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    max-width: 100%;
+    height: auto;
+}
+.black-section {
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: repeat(8,300px);/*((kitne box the,kitne width ka hai )*/
+    overflow-x: scroll;(hiaden)
+    scrollbar-width: none;
+    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 2fr;/*fr=frection(width)*/
+      justify-content: center;
+    gap: 10px;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+}
+{
+
+}
